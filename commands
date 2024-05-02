@@ -1,0 +1,5 @@
+sudo service ssh status
+sudo apt install openssh-server
+sudo systemctl start sshd
+sudo netstat -tuln | grep 22
+scp filenae username@ip:address(home/username)
